@@ -1,0 +1,109 @@
+*{
+ font-family: roboto;
+ background-color: black;
+ 
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+.container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.container_right{
+    max-width: 20rem;
+    position: relative;
+    
+}
+
+.container_left{
+    width: 32%;
+    margin: 0 3rem;
+    
+
+}
+
+
+.contorno{
+    border: 3rem solid transparent;
+    border-radius: 1rem;
+    position: absolute;
+    width: 92%;
+    height: 95%;
+    top: 1.7rem;
+    left: 0.7rem;
+    box-shadow: 0 0 0 .2rem rgb(234, 176, 2);;
+    z-index: 1;
+}
+
+.imagem{
+    width: 90%;
+    border-radius: 1rem;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: relative;
+    object-position: center;
+    overflow: hidden;
+    
+}
+
+
+
+#titulo{
+    margin-bottom: .8rem;
+}
+
+#corDoTexto{
+    color: rgb(234, 176, 2);
+}
+
+#texto{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+#instagram{
+margin-right: .9rem;
+}
+
+.botão{
+    background-color:  rgb(234, 176, 2);
+    color: black;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-weight: 800;
+}
+
+.botão:hover {
+    background-color: rgb(250, 242, 4); /* Muda para a cor verde ao passar o mouse */
+    cursor:pointer;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagemDoRodape{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 95%;
+    margin-top: 12rem;
+    opacity: 30%;
+}
+
+.letbLogo{
+    width: 100%;  /* A imagem ocupa 100% da largura do contêiner */
+    height: 100%;  /* A imagem ocupa 100% da altura do contêiner */
+    object-fit: contain;  /* Ajusta a imagem para cobrir o contêiner sem distorcer */
+    object-position: center;  /* Centraliza a imagem dentro do contêiner */
+}
